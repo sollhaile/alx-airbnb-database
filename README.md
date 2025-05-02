@@ -11,6 +11,24 @@ Implement secure booking and payment functionality.
 
 Support user reviews and ratings for properties.
 
+0. Team Roles and Responsibilities
+Business Analyst (BA): Identifies business needs, gathers and analyzes requirements, and ensures that the software solution aligns with business goals. Acts as a bridge between stakeholders and the technical team.
+
+Product Owner (PO): Defines the product vision, prioritizes features in the product backlog, and ensures the development team builds what delivers the most value to users and the business.
+
+Project Manager (PM): Plans, organizes, and oversees the project to ensure it’s completed on time, within budget, and within scope. Manages risks, resources, and communication between teams.
+
+UI/UX Designer: Focuses on designing user interfaces (UI) and user experiences (UX) to ensure the product is intuitive, visually appealing, and easy to use.
+
+Software Architect: Designs the overall structure and high-level technical strategy of the software system, making decisions on architecture, frameworks, and key technologies.
+
+Software Developer: Writes, tests, and maintains the code to build the software application according to specifications and requirements.
+
+Quality Assurance (QA) Engineer: Tests the software manually to find defects, verify functionality, and ensure the product meets quality standards before release.
+
+Test Automation Engineer: Develops automated test scripts and frameworks to streamline testing, improve test coverage, and speed up the testing process.
+
+
 Provide a responsive, user-friendly interface for both hosts and guests.
 
 1. Technology Stack
