@@ -6,7 +6,7 @@ SELECT
 FROM booking b
 JOIN user u ON b.user_id = u.user_id
 JOIN property p ON b.property_id = p.property_id
-JOIN payment pay ON b.user_id = pay.user_id;
+JOIN payment pay ON b.user_id = pay.user_id WHERE u.user_id = pay.user_id AND b.booking_id = pay.booking_id;
 
 
 
