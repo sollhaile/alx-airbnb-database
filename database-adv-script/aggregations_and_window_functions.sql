@@ -14,7 +14,8 @@ GROUP BY
 SELECT 
     property_id,
     total_bookings,
-    ROW_NUMBER() OVER (ORDER BY total_bookings DESC) AS property_rank
+    ROW_NUMBER() OVER (ORDER BY total_bookings DESC) AS row_num_rank,
+    RANK() OVER (ORDER BY total_bookings DESC) AS rank_position
 FROM (
     SELECT 
         b.property_id,
@@ -24,4 +25,5 @@ FROM (
     GROUP BY 
         b.property_id
 ) ranked_properties;
+
 
